@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-image: url('image.jpg'); /* Remplace 'background.jpg' par le chemin de ton image */
+    background-size: cover; /* Pour couvrir toute la page */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    background-attachment: fixed; /* Pour fixer l'image lors du défilement */
+}
+
+
+.container {
+    width: 400px;  /* Augmenter la largeur */
+    height: 400px; /* Augmenter la hauteur */
+    padding: 30px;
+    border: 40px solid #000000;
+    border-radius: 50%; /* Pour rendre la forme ronde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* Couleur d'arrière-plan du conteneur avec transparence */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.whatsapp-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px; /* Augmenter la taille du bouton */
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Augmenter la taille du texte */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.whatsapp-link:hover {
+    background-color: #1DA851;
+}
